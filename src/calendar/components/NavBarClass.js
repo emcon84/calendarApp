@@ -1,0 +1,1 @@
+export const navbar_container = 'navbar navbar-dark bg-dark mb-4 px-4'
