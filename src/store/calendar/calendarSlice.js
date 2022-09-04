@@ -4,8 +4,8 @@ import { addHours } from 'date-fns';
 
 const tempEvent = {
     _id: new Date().getTime(),
-    title: 'Cumpleaños del jefe',
-    notes: 'hay que comprar la torta',
+    title: 'Evento test: Mostrar calendar',
+    notes: 'Este calendario se creo con React, Redux y Bootstrap',
     start: new Date(),
     end: addHours(new Date(), 2),
     bgColor: '#fafafa',
